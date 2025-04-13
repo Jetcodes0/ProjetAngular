@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { PlayingCardComponent } from "./components/playing-card/playing-card.component";
 import { Monster } from './models/monster.model';
+import { SearchBarComponent } from "./components/search-bar/search-bar.component";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [PlayingCardComponent]
+  imports: [PlayingCardComponent, SearchBarComponent]
 
   
 })
