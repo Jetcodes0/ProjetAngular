@@ -13,6 +13,8 @@ import { SearchBarComponent } from "./components/search-bar/search-bar.component
 })
 export class AppComponent {
   monster1!: Monster;
+  count: number = 0;
+  search = ''
 
   constructor() {
     this.monster1 = new Monster();
@@ -22,6 +24,10 @@ export class AppComponent {
     this.monster1.attackName = "Slash";
     this.monster1.attackStrength = 10;
     this.monster1.attackDescription = "The goblin slashes at you with its dagger!";
+  }
+
+  increaseCount() {
+    this.count++;
   }
 
 
