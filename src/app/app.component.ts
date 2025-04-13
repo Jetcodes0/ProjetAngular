@@ -16,7 +16,7 @@ export class AppComponent {
   constructor() {
     this.monster1 = new Monster();
     this.monster1.name = "Goblin";
-    this.monster1.hp = 100;
+    this.monster1.hp = 50;
     this.monster1.figurecaption = "Goblin";
     this.monster1.attackName = "Slash";
     this.monster1.attackStrength = 10;
